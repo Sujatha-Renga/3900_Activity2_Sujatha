@@ -1,0 +1,45 @@
+main{
+    background-color:slategrey;
+    padding:4px;
+    color:#202020";
+}
+h1,h2{
+    color:darkblue;
+}
+#headshot{
+    border: 1px solid #808080;
+    padding:2px;
+    margin: 8px;
+    border-radius: 8px;
+    max-width: 50px
+}
+#menu li
+{
+    display:inline;
+    padding: 8px;
+    background-color: rgb(42, 40, 40);
+}
+#menu li a
+{
+    color:white !important;
+    text-decoration: none;
+}
+
+#menu li.active{
+    background-color: darkslateblue;
+
+}
+#menu{
+    float: right;
+}
+footer{
+    text-align: center;
+    background-color:#202020;
+    color: lightblue;
+    padding: 2px;
+}
+
+header #headshot, header #menu,header #siteName{
+    display: inline;
+    vertical-align: middle;
+}
