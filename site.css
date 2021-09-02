@@ -1,25 +1,23 @@
 /* Header Section*/
 
 
-.mydesc, h2{
-    margin-left: 150px;
+.mydesc{
+    margin-left: 50px;
 }
 h3,h2{
     color: #91070d;
 }
 
 header{
-    display: flex;
-    justify-content:start;
-    align-items: center; 
-    background-color: #352d39; 
+    display:flex;
+    background-color: #352d39;
     }
    
 
 #menu li
 {
     display:inline;
-    padding: 8px;
+    padding: 16px;
     background-color: rgb(42, 40, 40);
 }
 #menu li a
@@ -29,11 +27,12 @@ header{
 }
 
 #menu li.active{
-    background-color: darkslateblue;
+    padding: 16px;
+    background-color: rgb(230, 120, 129);
 
 }
 #menu{
-    float: right;    
+    float:left;    
 }
 
 #headshot{   
@@ -63,7 +62,7 @@ header{
     display: inline;
     padding: 15px;
     background-color: rgb(98, 112, 196);
-    border-radius: 1000px;       
+    border-radius: 3px;       
 }
 #homeMenu li a
 {
@@ -71,28 +70,36 @@ header{
     text-decoration: none;
 }
 
-#abtmenu{
+#abtmenu,h2{
     text-align: center;
+    
 }
 
 #abtmenu li{
     display: inline;
-    padding: 8px;
-    background-color: rgb(98, 112, 196);
-    border-radius: 50px;       
+   
 }
 #abtmenu li a
 {
-    color:white !important;
+    color:#ef6573;
     text-decoration: none;
 }
+
+.abtedu, .abtskill, .abtexp{
+    padding: 8px;
+    border: 3px solid #ef6573;
+    color: #ef6573;
+    background-color: white;
+    
+}
+
 
 /*@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
  @font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}*/
 
 .hometitle{
     color:#a02033d8;
-    font-family:'IBM Plex Sans Arabic', sans-serif;
+    font-family:'IBM Plex Sans Condensed';
     font-size: 75; 
     text-align: center;    
 }
