@@ -1,18 +1,21 @@
-main{
-    background-color:slategrey;
-    padding:4px;
-    color:#202020";
+/* Header Section*/
+
+
+.mydesc, h2{
+    text-align: center;
 }
-h1,h2{
-    color:darkblue;
+h3,h2{
+    color: #91070d;
 }
-#headshot{
-    border: 1px solid #808080;
-    padding:2px;
-    margin: 8px;
-    border-radius: 8px;
-    max-width: 50px
-}
+
+header{
+    display: flex;
+    justify-content:start;
+    align-items: center; 
+    background-color: #352d39; 
+    }
+   
+
 #menu li
 {
     display:inline;
@@ -30,16 +33,114 @@ h1,h2{
 
 }
 #menu{
-    float: right;
+    float: right;    
 }
+
+#headshot{   
+    max-width: 200px;
+    border-radius: 20px;    
+}
+
+#homebtnabout,#homebtnresume{   
+    
+    float:center;   
+    
+}
+.headshotcontainer{
+    text-align: center;
+}
+
+.homecontainer{
+    margin-top: 50px;
+}
+#homeMenu{
+    text-align: center;
+}
+
+
+
+#homeMenu li{
+    display: inline;
+    padding: 15px;
+    background-color: rgb(98, 112, 196);
+    border-radius: 1000px;       
+}
+#homeMenu li a
+{
+    color:white !important;
+    text-decoration: none;
+}
+
+#abtmenu{
+
+    text-align: center;
+}
+
+
+
+#abtmenu li{
+    display: inline;
+    padding: 8px;
+    background-color: rgb(98, 112, 196);
+    border-radius: 50px;       
+}
+#abtmenu li a
+{
+    color:white !important;
+    text-decoration: none;
+}
+
+.hometitle{
+    color: #3517a1;
+    font-family:cursive;
+    font-size: 75; 
+    text-align: center;    
+}
+
+/* Main Section
+main{
+    /*background-color: rgb(197, 197, 197);
+    padding: 4px;
+    color: #202020;
+    grid-area: main;
+}*/
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("/img/star.jpg");
+   
+}
+
+
+aside{
+    
+}
+
+/*
+
 footer{
     text-align: center;
     background-color:#202020;
     color: lightblue;
     padding: 2px;
+    grid-area: footer;
+}*/
+.skilltitle, .edutitle{
+    font-weight:bold ;
 }
 
+/*
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "
+     aside"
+    "footer footer";
+}
+/*
 header #headshot, header #menu,header #siteName{
     display: inline;
     vertical-align: middle;
-}
+}*/
