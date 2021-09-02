@@ -2,7 +2,7 @@
 
 
 .mydesc, h2{
-    text-align: center;
+    margin-left: 150px;
 }
 h3,h2{
     color: #91070d;
@@ -72,11 +72,8 @@ header{
 }
 
 #abtmenu{
-
     text-align: center;
 }
-
-
 
 #abtmenu li{
     display: inline;
@@ -90,9 +87,12 @@ header{
     text-decoration: none;
 }
 
+/*@font-face { font-family: Delicious; src: url('Delicious-Roman.otf'); } 
+ @font-face { font-family: Delicious; font-weight: bold; src: url('Delicious-Bold.otf');}*/
+
 .hometitle{
-    color: #3517a1;
-    font-family:cursive;
+    color:#a02033d8;
+    font-family:'IBM Plex Sans Arabic', sans-serif;
     font-size: 75; 
     text-align: center;    
 }
